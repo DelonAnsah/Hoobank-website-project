@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-Module.exports ={
+module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
-  mode: "jit",
+  mode: "jit", // Just-In-Time mode
   theme: {
     extend: {
       colors: {
@@ -11,7 +11,7 @@ Module.exports ={
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
       fontFamily: {
-        poppins: ["poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
     screens: {
@@ -25,5 +25,3 @@ Module.exports ={
   },
   plugins: [],
 };
-
-
