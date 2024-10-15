@@ -12,6 +12,7 @@ const Hero = () => {
           <img 
           src={discount} 
           alt="discount" 
+          loading='lazy'
           className='w-[32px] h-[32px]'/>
           <p className={`${styles.paragraph} ml-2`}>
             <span className='text-white'>20% </span>

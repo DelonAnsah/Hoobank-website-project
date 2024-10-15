@@ -13,7 +13,7 @@ const CardDeal = () => {
         <Button styles="mt-10" />
       </div>
       <div className={layout.sectionImg}>
-        <img src={card} alt="alt" className='w-[100%] h-[100%]' />
+        <img src={card} alt="alt" loading='lazy' className='w-[100%] h-[100%]' />
       </div>
       
     </section>
